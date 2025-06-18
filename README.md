@@ -1,64 +1,18 @@
 # WarPulse Dashboard
 
-**WarPulse Dashboard** is a live, real-time monitoring panel for the WarPulse Expert Advisor (EA) — a custom trading bot designed to react to geopolitical conflicts and global war-time volatility.
+A live Streamlit dashboard for monitoring the WarPulse EA — an AI-powered Forex trading bot built for war-time volatility detection and execution. Tracks trade signals, news-based risk alerts, and auto-trade logs in real time.
 
-This Streamlit-based dashboard displays:
-- ✅ Real-time trade alerts
-- 📊 Executed trade log from CSV
-- 🛡️ Risk-off mode indicators based on live news
-- 🔄 Countdown to next scan
-- 🧠 Telegram alert integration
-- 📉 Equity tracking (optional add-on)
+## Features
+- 📡 Real-time bot status
+- 📉 Trade log (from CSV)
+- 🛡️ Risk-off detection via news
+- 🔁 Countdown to next scan
+- 💬 Telegram alert support
 
----
+## How to Run
+```bash
+pip install -r requirements.txt
+streamlit run dashboard.py
+```
 
-## 🚀 How to Deploy
-
-1. Clone or fork this repository
-2. Install dependencies: `pip install -r requirements.txt`
-3. Run the dashboard: `streamlit run dashboard.py`
-4. Or deploy it using [Streamlit Cloud](https://streamlit.io/cloud)
-
----
-
-## 💡 Powered By
-- MetaTrader 5 (Python API)
-- Streamlit
-- NewsAPI
-- Telegram Bot API
-
----
-
-**Built with prayer, purpose, and precision.**
-# WarPulse Dashboard
-
-**WarPulse Dashboard** is a live, real-time monitoring panel for the WarPulse Expert Advisor (EA) — a custom trading bot designed to react to geopolitical conflicts and global war-time volatility.
-
-This Streamlit-based dashboard displays:
-- ✅ Real-time trade alerts
-- 📊 Executed trade log from CSV
-- 🛡️ Risk-off mode indicators based on live news
-- 🔄 Countdown to next scan
-- 🧠 Telegram alert integration
-- 📉 Equity tracking (optional add-on)
-
----
-
-## 🚀 How to Deploy
-
-1. Clone or fork this repository
-2. Install dependencies: `pip install -r requirements.txt`
-3. Run the dashboard: `streamlit run dashboard.py`
-4. Or deploy it using [Streamlit Cloud](https://streamlit.io/cloud)
-
----
-
-## 💡 Powered By
-- MetaTrader 5 (Python API)
-- Streamlit
-- NewsAPI
-- Telegram Bot API
-
----
-
-**Built with prayer, purpose, and precision.**
+Or deploy on [Streamlit Cloud](https://streamlit.io/cloud).
